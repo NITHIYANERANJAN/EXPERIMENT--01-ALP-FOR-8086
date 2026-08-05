@@ -75,31 +75,35 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 ~~~
 org 100h
+
 mov ax,[1100h]
 mov bx,[1102h]
 add ax,bx
 mov [1200h],ax
 
 
+
 mov ax,[1100h]
 mov bx,[1102h]
 sub ax,bx
-mov [1202h],ax
+mov [1200h],ax
+
 
 
 mov ax,[1100h]
 mov bx,[1102h]
 mul bx
-mov [1204h],ax
-mov [1206h],dx
+mov [1200h],ax
+mov [1202h],dx
+
 
 
 mov ax,[1100h]
 mov dx,0000h
 mov bx,[1102h]
 div bx
-mov [1208h],ax
-mov [120Ah],dx
+mov [1200h],ax
+mov [1202h],dx
 
 hlt
 ~~~
@@ -136,10 +140,10 @@ RET
 
 ## Output
 
-
-
-
-
+<img width="1919" height="1079" alt="Screenshot 2026-08-05 093609" src="https://github.com/user-attachments/assets/d1e8e60e-f7fe-499d-ad3f-3ab4bdcf0334" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a218aab5-1e62-4129-bce0-dd7cbb0b9e51" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfa2ee84-004b-497a-b32a-48c641837d21" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c83f931-f829-4c90-bac5-203d7aa8ca51" />
 <img width="1129" height="921" alt="Screenshot 2026-07-31 133756" src="https://github.com/user-attachments/assets/0511bca9-46d6-4956-bd28-1ef8e35510f8" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ade0ad7a-0abf-46ed-b7c1-cbe8c7153dde" />
 <img width="1920" height="1080" alt="Screenshot 2026-07-31 135021" src="https://github.com/user-attachments/assets/dbb2f0bd-5801-4383-9cf0-5214e130e7c6" />
