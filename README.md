@@ -75,73 +75,78 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 ~~~
 org 100h
-
-mov AX,4325H
-mov BX,2233H
-
-add AX,BX  
-mov [2000H],AX
-mov AX,4325H 
-
-sub AX,BX
-mov [2002H],AX
-mov AX,4325H
-mov CX,2525H
-
-mul CX
-mov [2004H],AX
-mov AX,2325H
-mov CL,05H
-
-div CL
-mov [2006H],AX
+mov ax,[1100h]
+mov bx,[1102h]
+add ax,bx
+mov [1200h],ax
 
 
-ret
+mov ax,[1100h]
+mov bx,[1102h]
+sub ax,bx
+mov [1202h],ax
+
+
+mov ax,[1100h]
+mov bx,[1102h]
+mul bx
+mov [1204h],ax
+mov [1206h],dx
+
+
+mov ax,[1100h]
+mov dx,0000h
+mov bx,[1102h]
+div bx
+mov [1208h],ax
+mov [120Ah],dx
+
+hlt
 ~~~
 ```
 org 100h
 
-mov BX,3465H;
-mov AX,7594H;
-AND Ax,BX;
-MOV [2000H],AX;
+MOV BX,3527H;
+MOV CX,2968H;
+AND BX,CX;
+MOV [2000H],BX;
 
+MOV BX,3527H;
+MOV CX,2968H;
+AND BX,CX;
+NOT CX;
+MOV [2002H],BX;
 
-MOV AX,4754H;
-MOV CX,3932H;
-AND AX,CX; 
-NOT CX
-MOV [2002H],AX;
+MOV BX,3527H;
+MOV CX,2968H;
+OR BX,CX;
+MOV [2004H],BX;
 
-MOV AX,4732H;
-MOV BX,1124H;
-OR  AX,BX;
-MOV [2004],AX;
+MOV BX,3527H;
+MOV CX,2968H;
+OR BX,CX;
+NOT CX;
+MOV [2006H],BX;
 
-MOV AX,8763H;
-MOV BX,7654H;
-OR  AX,BX;
-NOT BX;
-MOV [2006H],AX;
-
-hlt
+RET
 ```
 
 
 
 
 ## Output
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 080940" src="https://github.com/user-attachments/assets/c640a362-e03d-458a-bccd-bf0bdbfe7813" />
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 081138" src="https://github.com/user-attachments/assets/2c117ab0-27dc-4896-8afc-33ca7a3ca906" />
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 081156" src="https://github.com/user-attachments/assets/5e4fa9c1-e65d-4290-929d-7d48193a5867" />
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 081726" src="https://github.com/user-attachments/assets/5d907bb4-232b-4f8a-8bee-611a48940949" />
 
 
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 081325" src="https://github.com/user-attachments/assets/2b54b260-f56b-4203-95c9-b8bbf8e133ce" />
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 081347" src="https://github.com/user-attachments/assets/19c9a9d8-b826-4949-a77c-7f38b993dae6" />
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 081404" src="https://github.com/user-attachments/assets/354930e1-da07-45bc-ad71-ca087aefab45" />
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 081418" src="https://github.com/user-attachments/assets/c1612cfe-a02e-4914-b1ce-e92671550dc5" />
+
+
+
+<img width="1129" height="921" alt="Screenshot 2026-07-31 133756" src="https://github.com/user-attachments/assets/0511bca9-46d6-4956-bd28-1ef8e35510f8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ade0ad7a-0abf-46ed-b7c1-cbe8c7153dde" />
+<img width="1920" height="1080" alt="Screenshot 2026-07-31 135021" src="https://github.com/user-attachments/assets/dbb2f0bd-5801-4383-9cf0-5214e130e7c6" />
+<img width="1920" height="1080" alt="Screenshot 2026-08-05 090919" src="https://github.com/user-attachments/assets/94f9c1de-eb14-42b2-93e9-e9ab8fdeac02" />
+
+
+
 
 
 
