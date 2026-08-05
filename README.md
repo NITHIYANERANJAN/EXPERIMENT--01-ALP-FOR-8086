@@ -69,70 +69,61 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-
-
-
 ## Programs for arithmetic  operations
 ~~~
 org 100h
-
 mov ax,[1100h]
 mov bx,[1102h]
 add ax,bx
 mov [1200h],ax
 
 
-
+ 
+ 
+org 100h
 mov ax,[1100h]
 mov bx,[1102h]
 sub ax,bx
 mov [1200h],ax
 
 
-
+org 100h
 mov ax,[1100h]
 mov bx,[1102h]
 mul bx
-mov [1200h],ax
+mov [1200h],ax    
 mov [1202h],dx
 
-
-
+org 100h
 mov ax,[1100h]
-mov dx,0000h
 mov bx,[1102h]
 div bx
-mov [1200h],ax
+mov [1200h],ax    
 mov [1202h],dx
-
 hlt
 ~~~
 ```
 org 100h
 
-MOV BX,3527H;
-MOV CX,2968H;
-AND BX,CX;
-MOV [2000H],BX;
+MOV AX,3527H
+MOV BX,2968H
+AND AX,BX
+MOV [2000H],AX
 
-MOV BX,3527H;
-MOV CX,2968H;
-AND BX,CX;
-NOT CX;
-MOV [2002H],BX;
+MOV AX,3527H
+MOV BX,2968H
+OR AX,BX
+MOV [2002H],AX
 
-MOV BX,3527H;
-MOV CX,2968H;
-OR BX,CX;
-MOV [2004H],BX;
+MOV AX,3527H
+NOT AX
+MOV [2004H],AX
 
-MOV BX,3527H;
-MOV CX,2968H;
-OR BX,CX;
-NOT CX;
-MOV [2006H],BX;
+MOV BX,2968H
+NOT BX
+MOV [2006H],BX
 
-RET
+HLT
 ```
 
 
