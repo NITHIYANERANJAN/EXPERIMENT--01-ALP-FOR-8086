@@ -1,8 +1,8 @@
 ## EXPERIMENT  01  ALP on fundamental arithmetic and logical operations 8086
 
-Name :NITHIYANERANJAN S
+Name : NITHIYANERANJAN S
 
-Roll no 212223040136
+Roll no : 212223040136
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -69,6 +69,9 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
+
+
+
 ## Programs for arithmetic  operations
 ~~~
 org 100h
@@ -130,15 +133,27 @@ HLT
 
 
 ## Output
+<img width="1917" height="1017" alt="Screenshot 2026-07-31 084803" src="https://github.com/user-attachments/assets/0616ab86-15ad-4442-b270-02fa48be7010" />
+<img width="1917" height="1022" alt="Screenshot 2026-07-31 084831" src="https://github.com/user-attachments/assets/8b3ad3b0-1756-4024-9d9a-935cf1c6b73d" />
+<img width="1917" height="1017" alt="Screenshot 2026-07-31 084858" src="https://github.com/user-attachments/assets/edd56ec8-0554-417f-b47a-76ddfa9be998" />
+<img width="1917" height="1015" alt="Screenshot 2026-07-31 084936" src="https://github.com/user-attachments/assets/18af61b4-bfc3-4257-9cf3-623de94907b9" />
 
-<img width="1919" height="1079" alt="Screenshot 2026-08-05 093609" src="https://github.com/user-attachments/assets/d1e8e60e-f7fe-499d-ad3f-3ab4bdcf0334" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a218aab5-1e62-4129-bce0-dd7cbb0b9e51" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfa2ee84-004b-497a-b32a-48c641837d21" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c83f931-f829-4c90-bac5-203d7aa8ca51" />
-<img width="1129" height="921" alt="Screenshot 2026-07-31 133756" src="https://github.com/user-attachments/assets/0511bca9-46d6-4956-bd28-1ef8e35510f8" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ade0ad7a-0abf-46ed-b7c1-cbe8c7153dde" />
-<img width="1920" height="1080" alt="Screenshot 2026-07-31 135021" src="https://github.com/user-attachments/assets/dbb2f0bd-5801-4383-9cf0-5214e130e7c6" />
-<img width="1920" height="1080" alt="Screenshot 2026-08-05 090919" src="https://github.com/user-attachments/assets/94f9c1de-eb14-42b2-93e9-e9ab8fdeac02" />
+
+<img width="1917" height="1020" alt="Screenshot 2026-07-31 085631" src="https://github.com/user-attachments/assets/2f120921-709d-40e1-9472-2365c9e175c4" />
+<img width="1917" height="1025" alt="Screenshot 2026-07-31 085652" src="https://github.com/user-attachments/assets/38b3a67f-ec0d-4813-97d3-1abe30aca08a" />
+<img width="1917" height="1023" alt="Screenshot 2026-07-31 085721" src="https://github.com/user-attachments/assets/e9ca3bbf-ea09-4c2d-9bab-c140bf997c3a" />
+<img width="1917" height="1020" alt="Screenshot 2026-07-31 085745" src="https://github.com/user-attachments/assets/03e5087d-5d62-4258-8f6a-ce64f6ec098a" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
